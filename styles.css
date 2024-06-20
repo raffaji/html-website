@@ -1,0 +1,445 @@
+@font-face {
+  font-family: myfont;
+  src: url("impact.ttf");
+}
+
+@font-face {
+  font-family: font2;
+  src: url("spartan.ttf");
+}
+@font-face {
+  font-family: font3;
+  src: url("Montserrat-Italic.ttf");
+}
+body {
+  padding:0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: #fff;
+}
+
+.header {
+  background-color: black;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  display: inline-block;
+  vertical-align: middle;
+  height: auto;
+}
+
+.logo {
+  width: 85px;
+  height: auto;
+}
+
+.second-logo {
+  width: 230px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.menu-container {
+  position: relative;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  display: flex;
+  margin-right: 3.4px;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+}
+
+.menu-button span {
+  display: block;
+  width: 35px;
+  height: 4px;
+  background-color: #ff6200;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+   z-index: 10;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+}
+
+.menu ul li a {
+  color: #f4762a;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.menu.active {
+  display: block;
+}
+
+nav {
+  margin-right: 20px;
+}
+#hero {
+  position: relative;
+  height: 100vh;
+  height: 350px;
+  overflow: hidden;
+  text-align: center;
+}
+.video {
+  width: 100vw;  /* Fills available space within container */
+  height: 100vh;  /* Maintains aspect ratio */
+  object-fit: cover;
+}
+.video-container{
+  object-fit: cover;
+  width: 100vw;/* Maintains full width on all devices */
+  height: 100vh; 
+}
+@media (min-width: 992px ) {  /* Adjust breakpoint as needed (e.g., 992px for large laptops) */
+  .video {
+    width: 1250px; /* Set desired width for laptops */
+    height: 950px; /* Set desired height for laptops */
+  }
+}
+.slide{
+  position: relative;
+  z-index:-1;
+  top: 0;
+  left: 0;
+  transition: opacity 2s ease-in-out; /* Smooth transition between slides */
+  object-fit: cover;
+} 
+.text-content {
+  font-family: font2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.text-content h1 {
+  font-family: font2;
+  font-size: 3em;
+  color:#f4762a;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 2s ease-out;
+}
+
+.text-content p {
+  font-size: 1.5em;
+  color: #00aaff;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 2s ease-out 1s;
+}
+
+#hero h1 {
+  color: #ff6200;
+  font-size: 48px;
+}
+
+#hero p {
+  font-size: 24px;
+  color: #00aaff;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #ff6200;
+  font-size: 30px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+p.center-text {
+
+  font-size: 1.5em;
+}
+.parent-container {
+  height:98vh;
+  width:95.1vw;
+  text-align: left;
+  background-image:linear-gradient(to right, black 0% ,black 49%, #ff6200 49%, #ff6200 100%);
+  padding: 20px;
+}
+.why-us-title {
+  font-size: 70px;
+  color: #f4762a;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 10px;
+  margin-bottom: 2px; 
+}
+
+.why-us-paragraph {
+  color: #ffffff;
+  font-family: font3;
+  font-size:20px;
+  font-weight: bold;
+  text-align: right;  
+  display: flex; /* Enable flexbox for vertical centering */
+  justify-content: flex-end; 
+  margin-top: 20px; 
+  margin-bottom: 30px; 
+}
+@keyframes text-reveal {
+  from { opacity: 0; } /* Start with invisible text */
+  to { opacity: 1; } /* End with fully visible text */
+}
+.why-us-paragraph {
+  animation: text-reveal 2s ease-in-out forwards;
+}
+#programs {
+  width:95.2vw;
+background-color:#141414; /* Set background color for the entire programs section */
+}
+#programs h2 {
+  font-size: 50px;
+  padding: 10px; /* Add padding for better visibility */
+  margin-top: 0; /* Remove default margin for the h2 */
+
+   text-shadow:
+    /* Inner shadow for a slight glow */
+    0 0 0 3px rgba(#ff6600, 1),
+    /* Outer shadow for a diffused glow */
+    0 0 7px 4px rgba(#ff6600, 0.5);
+  
+}
+
+.programs-container {
+  justify-content: center;
+  align-items: stretch;
+  font-family: font2;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+.program {
+ /* Set background color for each program */
+  display: flex;
+  margin-bottom: 0;
+  padding:70px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.program img {
+  width:50px;
+  height: auto;
+  border-radius: 50%;
+  opacity:0.7;
+  display: block; /* Make the image a block element */
+  margin: auto; /* Center horizontally and vertically */
+  margin-top: 55px;
+}
+.card {
+    background-image: url("file:///home/raffay/Downloads/website%20html%20(copy)/images/WhatsApp%20Image%202024-06-11%20at%2012.16.28%20PM.jpeg"); /* Replace with your image path */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center; /* Center the image horizontally */
+    background-size: cover; /* Stretch the image to cover the entire card */
+    width: 130px; /* Adjust width as needed */
+    height: 200px; 
+    background-color: #f4762a;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.2s ease-in-out; /* Animation properties */
+    cursor: pointer; /* Optional: Set cursor to indicate interaction */
+}
+
+.card:hover {
+  transform: scale(1.1); /* Zoom in on hover */
+}
+}
+.card-text { /* Replace with your actual selector */
+  color: #fff; /* Set text color to white for better contrast */
+  text-shadow:
+    /* Inner shadow for a slight glow */
+    0 0 0 3px rgba(#ff2600, 1),
+    /* Outer shadow for a diffused glow */
+    0 0 7px 4px rgba(#ff2600, 0.5);
+}
+
+.program h3{
+justify-content: space-between;
+  font-family: font2;
+  margin: 5px 0px; /* Adjust margin to separate elements */
+  margin-bottom: 50px; 
+  text-align: center;
+  display: block;
+}
+#team{
+  width:95.2vw;
+background-color: #141414; /* Set background color for the entire programs section */
+}
+#team .text-container h2 span {  /* Target spans within the text container */
+  display: inline-block;  /* Ensures spans appear next to each other */
+  overflow: hidden;  /* Ensures content is not revealed until animation */
+}
+
+/* Styles for the Team section */
+#team h2 {
+  text-align: left;
+   line-height: 0.9;
+  font-size:106px;
+  font-family: font2;
+  margin-right: 370px;
+  overflow: hidden;
+  margin-bottom:105px;
+  animation:
+            typing 2s steps(40),
+            cursor .4s step-end infinite alternate;
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color:#ff6200 }
+}
+/* Delay each span's animation */
+.text-container h2 span:nth-child(1) {
+    animation-delay: 0s, 1s; /* Adjust the second value for cursor blink delay */
+}
+
+.text-container h2 span:nth-child(2) {
+    animation-delay: 4s, 3s; /* Adjust the second value for cursor blink delay */
+}
+
+.text-container h2 span:nth-child(3) {
+    animation-delay: 8s, 6s; /* Adjust the second value for cursor blink delay */
+} 
+.team-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: nowrap; /* Prevents wrapping to the next line */
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Aligns items to the right */
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.team-member p {
+ color: white;
+  margin: 10px 0;
+  }
+.team-member h3 {
+ font-size:35px;
+ color: #ff6200;
+    margin: 15px 15px; /* Space above and below heading */
+}
+
+.team-member img {
+    width: auto;
+    max-width: 230px;
+    max-height: 320px;
+    object-fit: cover;
+    margin-bottom: 30px;/* Space between image and text */
+    margin-left: 15px;
+}
+
+#contact-container {
+  display: flex;
+}
+
+#contact {
+ background-image:url("file:///home/raffay/Downloads/website%20html%20(copy)/images/WhatsApp%20Image%202024-06-04%20at%2010.19.55%20AM.jpeg");
+  height:50vh;
+  opacity:0.5;
+  padding: 20px;
+  width: 95.2vw;
+  position:relative;
+}
+
+#contact h2 {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-family: myfont;
+  font-size: 50px;
+  opacity: 1;
+  
+}
+
+#contact h2 span {
+  z-index:10;
+  color:#ff6200;
+  margin-right: 10px;
+}
+
+#contact p {
+  color: black;
+  display: inline-block;
+  margin-right: 200px;
+  font-weight: bold;
+  opacity: 2;
+ 
+}
+
+#contact p:last-child {
+  margin-right: 0;
+}
+
+
