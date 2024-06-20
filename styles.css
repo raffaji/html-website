@@ -402,15 +402,17 @@ background-color: #141414; /* Set background color for the entire programs secti
 
 #contact-container {
   display: flex;
+  position: relative;
 }
 
 #contact {
- background-image:url("/images/WhatsApp%20Image%202024-06-04%20at%2010.19.55%20AM.jpeg");
+ background-image:url("/images/contact.jpeg");
   height:50vh;
   opacity:0.5;
   padding: 20px;
   width: 95.2vw;
   position:relative;
+   z-index: 1;
 }
 
 #contact h2 {
