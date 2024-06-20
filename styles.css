@@ -281,7 +281,7 @@ background-color:#141414; /* Set background color for the entire programs sectio
   margin-top: 55px;
 }
 .card {
-    background-image: url("file:///home/raffay/Downloads/website%20html%20(copy)/images/WhatsApp%20Image%202024-06-11%20at%2012.16.28%20PM.jpeg"); /* Replace with your image path */
+    background-image: url("/images/WhatsApp%20Image%202024-06-11%20at%2012.16.28%20PM.jpeg"); /* Replace with your image path */
     background-repeat: no-repeat; /* Prevent image repetition */
     background-position: center; /* Center the image horizontally */
     background-size: cover; /* Stretch the image to cover the entire card */
@@ -405,7 +405,7 @@ background-color: #141414; /* Set background color for the entire programs secti
 }
 
 #contact {
- background-image:url("file:///home/raffay/Downloads/website%20html%20(copy)/images/WhatsApp%20Image%202024-06-04%20at%2010.19.55%20AM.jpeg");
+ background-image:url("/images/WhatsApp%20Image%202024-06-04%20at%2010.19.55%20AM.jpeg");
   height:50vh;
   opacity:0.5;
   padding: 20px;
