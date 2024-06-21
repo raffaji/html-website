@@ -458,12 +458,12 @@ background-color: #141414; /* Set background color for the entire programs secti
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: red; 
+  background: #0099FF; 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
+  background: #ff6200; 
 }
 
