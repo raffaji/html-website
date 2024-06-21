@@ -389,7 +389,9 @@ background-color: #141414; /* Set background color for the entire programs secti
 .team-member h3 {
  font-size:35px;
  color: #ff6200;
-    margin: 15px 15px; /* Space above and below heading */
+ margin-top: 15px ;/* Space above and below heading */
+ margin-bottom:15px ;
+ margin-left:105px;
 }
 
 .team-member img {
@@ -398,7 +400,7 @@ background-color: #141414; /* Set background color for the entire programs secti
     max-height: 320px;
     object-fit: cover;
     margin-bottom: 30px;/* Space between image and text */
-    margin-left: 85px;
+    margin-left: 105px;
 }
 #contact-container {
   display: flex;
