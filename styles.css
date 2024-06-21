@@ -400,10 +400,10 @@ background-color: #141414; /* Set background color for the entire programs secti
     margin-bottom: 30px;/* Space between image and text */
     margin-left: 15px;
 }
-
 #contact-container {
   display: flex;
   position: relative;
+  opacity:1;
 }
 
 #contact {
@@ -420,7 +420,7 @@ background-color: #141414; /* Set background color for the entire programs secti
 }
 
 #contact h2 {
- color:white;
+  color:white;
   z-index:1;
   display: flex;
   align-items: center;
