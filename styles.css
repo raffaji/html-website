@@ -381,6 +381,7 @@ background-color: #141414; /* Set background color for the entire programs secti
     flex-direction: column;
     text-align: center;
 }
+
 .team-member p {
  color: white;
   margin: 10px 0;
@@ -406,7 +407,10 @@ background-color: #141414; /* Set background color for the entire programs secti
 }
 
 #contact {
- background-image:url("/images/contact.jpeg");
+  background-image:url("/images/contact.jpeg");
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center; /* Center the image horizontally */
+  background-size: cover; /* Stretch the image to cover the entire card */
   height:50vh;
   opacity:0.5;
   padding: 20px;
