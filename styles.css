@@ -398,7 +398,7 @@ background-color: #141414; /* Set background color for the entire programs secti
     max-height: 320px;
     object-fit: cover;
     margin-bottom: 30px;/* Space between image and text */
-    margin-left: 75px;
+    margin-left: 85px;
 }
 #contact-container {
   display: flex;
