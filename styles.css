@@ -211,7 +211,7 @@ p.center-text {
   padding: 20px;
 }
 .why-us-title {
-  font-size: 70px;
+  font-size: 120px;
   color: #f4762a;
   font-weight: bold;
   text-align: left;
@@ -222,6 +222,7 @@ p.center-text {
 .why-us-paragraph {
   color: #ffffff;
   font-family: font3;
+  margin-right:15px;
   font-size:20px;
   font-weight: bold;
   text-align: right;  
@@ -385,6 +386,7 @@ background-color: #141414; /* Set background color for the entire programs secti
 .team-member p {
  color: white;
   margin: 15px 0;
+  margin-left:95px;
   }
 .team-member h3 {
  font-size:35px;
