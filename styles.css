@@ -420,7 +420,7 @@ background-color: #141414; /* Set background color for the entire programs secti
   position:relative;
 }
 
-#contact h2 {
+#contact > h2 {
   color:white;
   position:absolute;
   display: flex;
@@ -434,7 +434,7 @@ background-color: #141414; /* Set background color for the entire programs secti
   margin-right: 10px;
 }
 
-#contact p {
+#contact > p {
   color:white;
   display: inline-block;
   position:absolute;
