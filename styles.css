@@ -408,7 +408,7 @@ background-color: #141414; /* Set background color for the entire programs secti
   display: flex;
   position: relative;
   width: 95.2vw;
-  height: 40vh;
+  height: 30%;
 }
 
 #contact-overlay {
@@ -417,10 +417,10 @@ background-color: #141414; /* Set background color for the entire programs secti
   background-position: center; /* Center the image horizontally */
   background-size: cover; /* Stretch the image to cover the entire card */
   opacity:0.3;
-  height:40vh;
+  height:30%;
   position: absolute;
   padding: 20px;
-  width: 95.2vw;
+
 }
 #contact {
   z-index: 1; /* Ensure it is above the overlay */
@@ -428,9 +428,7 @@ background-color: #141414; /* Set background color for the entire programs secti
   flex-direction: row;
   justify-content: center;
   align-items: center; /* Center text horizontally */
-  text-align: center; /* Ensure text is centered */
   padding: 20px;
-  width: 95.2vw;
   position:relative;
 }
 
