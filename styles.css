@@ -421,6 +421,8 @@ background-color: #141414; /* Set background color for the entire programs secti
 }
 
 #contact > h2 {
+ display:flex;
+ align-items: center;
   color:white;
   position:absolute;
   display: flex;
