@@ -120,7 +120,7 @@ nav {
   object-fit: cover;
 }
 .video-container{
-  object-fit: contain;
+  object-fit: cover;
   width: 100vw;/* Maintains full width on all devices */
   height: 100vh; 
 }
@@ -444,7 +444,6 @@ background-color: #141414; /* Set background color for the entire programs secti
   font-weight: bold;
   opacity: 1;
    z-index:1;
- 
 }
 #contact p:last-child {
   margin-right: 0;
