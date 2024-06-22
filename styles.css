@@ -44,7 +44,7 @@ body {
 }
 
 .second-logo {
-  width: 230px;
+  width: 270px;
   height: auto;
   margin-left: 10px;
 }
@@ -406,6 +406,7 @@ background-color: #141414; /* Set background color for the entire programs secti
 }
 #contact-container {
   display: flex;
+  justify-content: space-between;
 }
 
 #contact {
@@ -419,7 +420,6 @@ background-color: #141414; /* Set background color for the entire programs secti
   width: 95.2vw;
   position:relative;
 }
-
 #contact > h2 {
  display:flex;
  align-items: center;
