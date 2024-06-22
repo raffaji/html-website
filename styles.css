@@ -117,7 +117,7 @@ nav {
 .video {
   width: 100vw;  /* Fills available space within container */
   height: 100vh;  /* Maintains aspect ratio */
-  object-fit: cover;
+  object-fit: contain;
 }
 .video-container{
   object-fit: contain;
@@ -126,8 +126,8 @@ nav {
 }
 @media (min-width: 992px ) {  /* Adjust breakpoint as needed (e.g., 992px for large laptops) */
   .video {
-    width: 1250px; /* Set desired width for laptops */
-    height: 950px; /* Set desired height for laptops */
+    width: 1024px; /* Set desired width for laptops */
+    height: 740px; /* Set desired height for laptops */
   }
 }
 .slide{
