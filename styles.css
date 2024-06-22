@@ -120,7 +120,7 @@ nav {
   object-fit: cover;
 }
 .video-container{
-  object-fit: cover;
+  object-fit: contain;
   width: 100vw;/* Maintains full width on all devices */
   height: 100vh; 
 }
