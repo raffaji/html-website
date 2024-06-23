@@ -304,7 +304,6 @@ background-color:#141414; /* Set background color for the entire programs sectio
 .card:hover {
   transform: scale(1.1); /* Zoom in on hover */
 }
-}
 .card-text { /* Replace with your actual selector */
   color: #fff; /* Set text color to white for better contrast */
   text-shadow:
@@ -421,7 +420,7 @@ background-color: #141414; /* Set background color for the entire programs secti
   opacity:1;
   padding: 20px;
   width: 95.2vw;
-  position:relative;
+  position:absolute;
 }
 #contact p {
   color:white;
