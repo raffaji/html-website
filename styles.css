@@ -454,44 +454,19 @@ background-color: #141414; /* Set background color for the entire programs secti
 ::-webkit-scrollbar-thumb:hover {
   background: #ff6200; 
 }
-.fade-in {
-    opacity: 0;
-    transition: opacity 1s ease-out;
-}
 
-.fade-in.animate {
-    opacity: 1;
-}
 .animate-on-scroll {
     opacity: 0;
-    filter:blur(5px);
-    transform: translateY(20px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-.animate-on-scroll.animate {
-    opacity: 1;
-    filter:blur(0);
-    transform: translateY(0);
-}
-.slide-right {
-    transform: translateX(50px);
-    opacity: 0;
+     filter:blur(5px);
+    transform: translateX(50px); /* Start with an offset to the right */
     transition: transform 0.8s ease-out, opacity 1s ease-out;
 }
 
-.slide-right.animate {
-    transform: translateX(0);
+/* Animation state for elements when they come into view */
+.animate-on-scroll.animate {
     opacity: 1;
-}
-.typewriter-text {
-    overflow: hidden; /* Ensures text doesn't overflow its container */
-    white-space: nowrap; /* Ensures text appears in a single line */
-    animation: typing 3s steps(40, end); /* Adjust duration and steps as needed */
-    border-right: 3px solid transparent; /* Provides typing cursor effect */
+      filter:blur(0);
+    transform: translateX(0); /* Move to original position */
 }
 
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
+
