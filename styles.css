@@ -371,7 +371,7 @@ background-color: #141414; /* Set background color for the entire programs secti
     flex-direction: row;
     align-items: flex-end;
     flex-wrap: nowrap; /* Prevents wrapping to the next line */
-
+    overflow-x: hidden; /* Allows horizontal scrolling if needed */
 }
 
 .team-container {
