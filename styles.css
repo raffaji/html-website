@@ -420,31 +420,17 @@ background-color: #141414; /* Set background color for the entire programs secti
   width: 95.2vw;
   position:relative;
 }
-#contact > h2 {
- display:flex;
- align-items: center;
-  color:white;
-  position:absolute;
-  display: flex;
-  align-items: center;
-  font-family: myfont;
-  font-size: 50px;
-  opacity: 1;
-}
-
-#contact h2 span {
-  margin-right: 10px;
-}
-
 #contact > p {
   color:white;
-  display: inline-block;
+  display: flex;
+  justify-content:space-evenly;
+  align-items:center;
   position:absolute;
   font-weight: bold;
   opacity: 1;
 }
 #contact p:last-child {
-  margin-right: 0;
+  margin-right: 10px;
 }
 /* width */
 ::-webkit-scrollbar {
