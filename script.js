@@ -1,11 +1,11 @@
 
-function toggleMenu() {
+/*function toggleMenu() {
             var menu = document.querySelector('.menu');
             menu.classList.toggle('active');
         }
         
 // Intersection Observer for animations
-/*document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     let options = {
         root: null, // Use the viewport as the root
         rootMargin: '0px', // No offset from the root's bounding box
