@@ -119,6 +119,7 @@ nav {
   width: 100vw;  /* Fills available space within container */
   height: 100vh;  /* Maintains aspect ratio */
   object-fit: cover;
+  margin-left:90px;
 }
 .video-container{
   object-fit: cover;
@@ -136,6 +137,7 @@ nav {
   z-index:-1;
   top: 0;
   left: 0;
+  right:0;
   transition: opacity 2s ease-in-out; /* Smooth transition between slides */
   object-fit: cover;
 } 
