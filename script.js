@@ -5,7 +5,7 @@ function toggleMenu() {
         }
         
 // Intersection Observer for animations
-document.addEventListener('DOMContentLoaded', function() {
+/*document.addEventListener('DOMContentLoaded', function() {
     let options = {
         root: null, // Use the viewport as the root
         rootMargin: '0px', // No offset from the root's bounding box
@@ -25,6 +25,4 @@ document.addEventListener('DOMContentLoaded', function() {
     if (target) {
         observer.observe(target);
     }
-});
-
-
+});*/
