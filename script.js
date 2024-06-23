@@ -3,25 +3,28 @@ function toggleMenu() {
             var menu = document.querySelector('.menu');
             menu.classList.toggle('active');
         }
+        
 // Intersection Observer for animations
-const teamSpans = document.querySelectorAll('.why-us-paragraph');
-const contactParagraphs = document.querySelectorAll('#contact p'); // Select both paragraphs
+document.addEventListener('DOMContentLoaded', function() {
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+    };
 
-const options = {
-  root: null, // Observe relative to viewport
-  threshold: 0.5, // Adjust this value if needed (0 to 1)
-};
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
 
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('.why-us-paragraph');
-    } else {
-      entry.target.classList.remove('.why-us-paragraph');
-    }
-  });
+    const elementsToAnimate = document.querySelectorAll('.animate-on-scroll');
+    elementsToAnimate.forEach(element => {
+        observer.observe(element);
+    });
 });
 
-// Observe all elements
-contactParagraphs.forEach(paragraph => observer.observe(paragraph));
 
