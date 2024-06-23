@@ -70,6 +70,7 @@ body {
   display: block;
   width: 35px;
   height: 4px;
+  margin-right:20px;
   background-color: #ff6200;
 }
 
@@ -211,7 +212,7 @@ p.center-text {
   padding: 20px;
 }
 .why-us-title {
-  font-size: 120px;
+  font-size: 100px;
   color: #f4762a;
   font-weight: bold;
   text-align: left;
@@ -420,7 +421,7 @@ background-color: #141414; /* Set background color for the entire programs secti
   width: 95.2vw;
   position:relative;
 }
-#contact > p {
+#contact p {
   color:white;
   display: flex;
   justify-content:space-evenly;
