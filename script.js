@@ -4,8 +4,7 @@ function toggleMenu() {
             menu.classList.toggle('active');
         }
 // Intersection Observer for animations
-const teamSpans = document.querySelectorAll('.js-animate');
-const contactHeading = document.querySelector('#contact h2');
+const teamSpans = document.querySelectorAll('.why-us-paragraph');
 const contactParagraphs = document.querySelectorAll('#contact p'); // Select both paragraphs
 
 const options = {
