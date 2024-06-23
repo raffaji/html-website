@@ -23,7 +23,5 @@ const observer = new IntersectionObserver(entries => {
 });
 
 // Observe all elements
-teamSpans.forEach(span => observer.observe(span));
-observer.observe(contactHeading);
 contactParagraphs.forEach(paragraph => observer.observe(paragraph));
 
