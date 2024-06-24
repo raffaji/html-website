@@ -37,19 +37,4 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(teamTarget);
     }
 });
- 
- 
- /*   let observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('animate');
-                observer.unobserve(entry.target); // Stop observing after animation
-            }
-        });
-    }, options);
 
-    let target = document.querySelector('#programs.animate-on-scroll');
-    if (target) {
-        observer.observe(target);
-    }
-});*/
