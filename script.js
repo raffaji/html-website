@@ -31,6 +31,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (aboutUsTarget) {
         observer.observe(aboutUsTarget);
     }
+     // Target for team section with animate-on-scroll and slide-up classes
+    let teamTarget = document.querySelector('#team.animate-on-scroll.slide-up');
+    if (teamTarget) {
+        observer.observe(teamTarget);
+    }
 });
  
  

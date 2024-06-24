@@ -478,3 +478,10 @@ background-color: #141414; /* Set background color for the entire programs secti
 .fade-in.animate {
     opacity: 1;
 }
+.slide-up {
+    transform: translateY(100px); /* Initial transform effect for slide-up */
+}
+
+.slide-up.animate {
+    transform: translateY(0); /* Transform effect for slide-up when visible */
+}
