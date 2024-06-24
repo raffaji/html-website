@@ -470,4 +470,11 @@ background-color: #141414; /* Set background color for the entire programs secti
     transform: translateX(0); /* Move to original position */
 }
 
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
 
+.fade-in.animate {
+    opacity: 1;
+}
