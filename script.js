@@ -25,4 +25,4 @@ document.addEventListener('DOMContentLoaded', function() {
     if (target) {
         observer.observe(target);
     }
-});*/
+});
