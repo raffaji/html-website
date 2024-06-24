@@ -420,14 +420,12 @@ background-color: #141414; /* Set background color for the entire programs secti
   opacity:1;
   padding: 20px;
   width: 95.2vw;
-  position:absolute;
 }
 #contact p {
   color:white;
   display: flex;
   justify-content:space-evenly;
   align-items:center;
-  position:absolute;
   font-weight: bold;
   opacity: 1;
 }
