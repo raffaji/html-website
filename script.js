@@ -22,11 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, options);
 
     let target = document.querySelector('#programs.animate-on-scroll');
-     let aboutTarget = document.querySelector('#team.animate-on-scroll');
-       if (programsTarget) {
-        observer.observe(programsTarget);
-    }
-    if (aboutTarget) {
-        observer.observe(aboutTarget);
+    if (target) {
+        observer.observe(target);
     }
 });
