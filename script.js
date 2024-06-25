@@ -3,7 +3,6 @@ function toggleMenu() {
             var menu = document.querySelector('.menu');
             menu.classList.toggle('active');
         }
-        
 // Intersection Observer for animations
 document.addEventListener('DOMContentLoaded', function() {
     let options = {
@@ -11,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         rootMargin: '0px', // No offset from the root's bounding box
         threshold: 0.2 // Trigger when 20% of the target is visible
     };
+    
     let observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -31,16 +31,19 @@ document.addEventListener('DOMContentLoaded', function() {
     if (aboutUsTarget) {
         observer.observe(aboutUsTarget);
     }
-     // Target for team section with animate-on-scroll and slide-up classes
+
+    // Target for team section with animate-on-scroll and slide-up classes
     let teamTarget = document.querySelector('#team.animate-on-scroll.slide-up');
     if (teamTarget) {
         observer.observe(teamTarget);
-    }
-    
-      let typewriterText = teamTarget.querySelector('.typewriter-text');
+        
+        let typewriterText = teamTarget.querySelector('.typewriter-text');
         if (typewriterText) {
             observer.observe(typewriterText);
         }
     }
 });
+   
+   
+   
 
