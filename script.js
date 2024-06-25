@@ -51,6 +51,11 @@ document.addEventListener('DOMContentLoaded', function() {
             typewriterObserver.observe(typewriterText);
         }
     }
+    // Target for contact us section with slide-left class
+    let contactTarget = document.querySelector('#contact.animate-on-scroll.slide-left');
+    if (contactTarget) {
+        observer.observe(contactTarget);
+    }
 });
 
 

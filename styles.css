@@ -474,3 +474,19 @@ background-color: #141414; /* Set background color for the entire programs secti
   from { width: 0; }
   to { width: 100%; }
 }
+/* Keyframes for sliding left */
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Class to apply the slide left animation */
+.slide-left {
+    animation: slideLeft 1.3s ease forwards; /* Adjust duration and easing as needed */
+}
