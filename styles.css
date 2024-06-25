@@ -123,12 +123,12 @@ nav {
 }
 .video-container{
   object-fit: cover;
-  width: 100%;/* Maintains full width on all devices */
+  width: 100vw;/* Maintains full width on all devices */
   height: 100vh; 
 }
 @media (min-width: 992px ) {  /* Adjust breakpoint as needed (e.g., 992px for large laptops) */
   .video {
-    width: 100%; /* Set desired width for laptops */
+    width: 1024px; /* Set desired width for laptops */
     height: 740px; /* Set desired height for laptops */
   }
 }
