@@ -210,7 +210,7 @@ p.center-text {
   height:98vh;
   width:95.1vw;
   text-align: left;
-  background-image:linear-gradient(to right, black 0% ,black 48%, #ff6200 48%, #ff6200 100%);
+  background-image:linear-gradient(to right, black 0% ,black 50%, #ff6200 50%, #ff6200 100%);
   padding: 20px;
 }
 .why-us-title {
@@ -225,7 +225,6 @@ p.center-text {
 .why-us-paragraph {
   color: #ffffff;
   font-family: font3;
-  margin-right:45px;
   font-size:20px;
   font-weight: bold;
   text-align: right;  
@@ -395,7 +394,7 @@ background-color: #141414; /* Set background color for the entire programs secti
  color: #ff6200;
  margin-top: 15px ;/* Space above and below heading */
  margin-bottom:15px ;
- margin-left:105px;
+ margin-left:65px;
 }
 
 .team-member img {
