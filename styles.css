@@ -207,14 +207,14 @@ p.center-text {
   font-size: 1.5em;
 }
 .parent-container {
-  height:60vh;
+  height:70vh;
   width:95.1vw;
   text-align: left;
   background-image:linear-gradient(to right, black 0% ,black 50%, #ff6200 50%, #ff6200 100%);
   padding: 20px;
 }
 .why-us-title {
-  font-size: 100px;
+  font-size: 125px;
   color: #f4762a;
   font-weight: bold;
   text-align: left;
@@ -226,7 +226,7 @@ p.center-text {
   color: #ffffff;
   font-family: font3;
   margin-left:15px;
-  font-size:12px;
+  font-size:20px;
   font-weight: bold;
   text-align: right;  
   display: flex; /* Enable flexbox for vertical centering */
