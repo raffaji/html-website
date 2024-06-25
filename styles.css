@@ -382,7 +382,7 @@ background-color: #141414; /* Set background color for the entire programs secti
 }
 #contact-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items:center;
   padding:20px;
 }
@@ -398,7 +398,7 @@ background-color: #141414; /* Set background color for the entire programs secti
   width: 95.2vw;
   display:flex;
   align-items: center; /* Center items vertically */
-  justify-content: space-between; /* Center items horizontally */
+  justify-content:center; /* Center items horizontally */
 }
 #contact p {
   color:white;
