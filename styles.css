@@ -337,35 +337,28 @@ background-color: #141414; /* Set background color for the entire programs secti
   font-size:106px;
   font-family: font2;
   margin-right: 370px;
+   margin-bottom:105px;
+}
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.typewriter {
+  display: inline-block;
   overflow: hidden;
-  margin-bottom:105px;
-  animation:
-            typing 2s steps(40),
-            cursor .4s step-end infinite alternate;
+  white-space: nowrap;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 24px; /* Adjust size as needed */
+  width: 100%; /* Initially set width to 0 */
+  animation: typewriter 4s steps(40, end), blink 0.75s step-end infinite;
 }
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color:#ff6200 }
-}
-/* Delay each span's animation */
-.text-container h2 span:nth-child(1) {
-    animation-delay: 0s, 1s; /* Adjust the second value for cursor blink delay */
-}
-
-.text-container h2 span:nth-child(2) {
-    animation-delay: 4s, 3s; /* Adjust the second value for cursor blink delay */
-}
-
-.text-container h2 span:nth-child(3) {
-    animation-delay: 8s, 6s; /* Adjust the second value for cursor blink delay */
-} 
-.team-wrapper {
+  .team-wrapper {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -483,3 +476,5 @@ background-color: #141414; /* Set background color for the entire programs secti
 .slide-up.animate {
     transform: translateY(0); /* Transform effect for slide-up when visible */
 }
+
+

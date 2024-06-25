@@ -36,5 +36,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (teamTarget) {
         observer.observe(teamTarget);
     }
+    
+      let typewriterText = teamTarget.querySelector('.typewriter-text');
+        if (typewriterText) {
+            observer.observe(typewriterText);
+        }
+    }
 });
 
