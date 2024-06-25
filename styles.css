@@ -296,9 +296,8 @@ background-color:#141414; /* Set background color for the entire programs sectio
     background-color: #f4762a;
     border-radius: 8px;
     padding: 30px;
-    margin: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 7px;
+    margin: 5px;
     transition: transform 0.2s ease-in-out; /* Animation properties */
     cursor: pointer; /* Optional: Set cursor to indicate interaction */
 }
