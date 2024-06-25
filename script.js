@@ -11,8 +11,8 @@ document.addEventListener('scroll', function() {
 
   // Calculate opacity based on scroll position
   let opacity = 1 - (scrollPosition / maxScroll);
-  if (opacity < 0.2) {
-    opacity = 0.2; // Minimum opacity
+  if (opacity < 0.4) {
+    opacity = 0.4; // Minimum opacity
   }
 
   header.style.backgroundColor = `rgba(0, 0, 0, ${opacity})`;
