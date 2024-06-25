@@ -403,7 +403,7 @@ background-color: #141414; /* Set background color for the entire programs secti
     max-height: 320px;
     object-fit: cover;
     margin-bottom: 30px;/* Space between image and text */
-    margin-left: 105px;
+    margin-left: 65px;
 }
 #contact-container {
   display: flex;
