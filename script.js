@@ -3,6 +3,20 @@ function toggleMenu() {
             var menu = document.querySelector('.menu');
             menu.classList.toggle('active');
         }
+        
+document.addEventListener('scroll', function() {
+  const header = document.querySelector('.header');
+  const maxScroll = 300; // Adjust the scroll distance for max opacity change
+  const scrollPosition = window.scrollY;
+
+  // Calculate opacity based on scroll position
+  let opacity = 1 - (scrollPosition / maxScroll);
+  if (opacity < 0.2) {
+    opacity = 0.2; // Minimum opacity
+  }
+
+  header.style.backgroundColor = `rgba(0, 0, 0, ${opacity})`;
+});        
 // Intersection Observer for animations
 document.addEventListener('DOMContentLoaded', function() {
     let options = {
