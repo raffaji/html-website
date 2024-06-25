@@ -265,9 +265,6 @@ background-color:#141414; /* Set background color for the entire programs sectio
   display: flex;
   text-align: left;
   justify-content: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap:20px;
 }
 .program {
  /* Set background color for each program */
@@ -331,7 +328,7 @@ justify-content: space-between;
   transform: translate(-50%, -50%);
   width: 90%;
   height: 90%;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity of the overlay */
+  background-color: rgba(0, 0, 0, 0.2); /* Adjust the color and opacity of the overlay */
   z-index: 1; /* Ensure it is above the image but below the text */
   pointer-events: none; /* Allow clicks to pass through the overlay */
 }
