@@ -19,8 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }, options);
-
-    // Target for programs section
+// Target for programs section
     let programsTarget = document.querySelector('#programs.animate-on-scroll');
     if (programsTarget) {
         observer.observe(programsTarget);
@@ -36,13 +35,26 @@ document.addEventListener('DOMContentLoaded', function() {
     let teamTarget = document.querySelector('#team.animate-on-scroll.slide-up');
     if (teamTarget) {
         observer.observe(teamTarget);
-        
+
+        // Observe the typewriter text for visibility
+        let typewriterObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('typewriter');
+                    observer.unobserve(entry.target); // Stop observing after animation
+                }
+            });
+        }, options);
+
         let typewriterText = teamTarget.querySelector('.typewriter-text');
         if (typewriterText) {
-            observer.observe(typewriterText);
+            typewriterObserver.observe(typewriterText);
         }
     }
 });
+
+
+ 
    
    
    

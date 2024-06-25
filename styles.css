@@ -339,23 +339,6 @@ background-color: #141414; /* Set background color for the entire programs secti
   margin-right: 370px;
    margin-bottom:105px;
 }
-@keyframes typewriter {
-  from { width: 0; }
-  to { width: 100%; }
-}
-
-@keyframes blink {
-  50% { border-color: transparent; }
-}
-
-.typewriter {
-  display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
-  font-family: monospace;
-  width: 100%; /* Initially set width to 0 */
-  animation: typewriter 4s steps(40, end) forwards;
-}
   .team-wrapper {
     display: flex;
     flex-direction: row;
@@ -474,5 +457,20 @@ background-color: #141414; /* Set background color for the entire programs secti
 .slide-up.animate {
     transform: translateY(0); /* Transform effect for slide-up when visible */
 }
+.typewriter-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0; /* Initially set width to 0 */
+  visibility: hidden; /* Hide text initially */
+  border-right: none; /* Remove cursor */
+}
+.typewriter {
+  visibility: visible; /* Make text visible */
+  animation: typewriter 4s steps(40, end) forwards;
+}
 
-
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
