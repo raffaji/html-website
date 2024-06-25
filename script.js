@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let options = {
         root: null, // Use the viewport as the root
         rootMargin: '0px', // No offset from the root's bounding box
-        threshold: 0.2 // Trigger when 20% of the target is visible
+        threshold: 0.3 // Trigger when 20% of the target is visible
     };
     
     let observer = new IntersectionObserver((entries, observer) => {
