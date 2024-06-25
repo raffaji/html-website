@@ -379,6 +379,11 @@ background-color: #141414; /* Set background color for the entire programs secti
     object-fit: cover;
     margin-bottom: 30px;/* Space between image and text */
     margin-left: 65px;
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+}
+
+.team-member img:hover {
+    transform: scale(1.1); /* Scale the image to 110% on hover */
 }
 #contact-container {
   display: flex;
