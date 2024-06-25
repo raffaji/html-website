@@ -383,6 +383,8 @@ background-color: #141414; /* Set background color for the entire programs secti
 #contact-container {
   display: flex;
   justify-content: space-between;
+  align-items:center;
+  padding:20px;
 }
 
 #contact {
@@ -397,9 +399,6 @@ background-color: #141414; /* Set background color for the entire programs secti
 }
 #contact p {
   color:white;
-  display: flex;
-  justify-content:space-evenly;
-  align-items:center;
   font-weight: bold;
   opacity: 1;
 }
