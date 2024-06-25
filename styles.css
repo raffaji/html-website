@@ -206,45 +206,6 @@ p.center-text {
 
   font-size: 1.5em;
 }
-.parent-container {
-  height:70vh;
-  width:95.1%;
-  text-align: left;
-  background-image:linear-gradient(to right, black 0% ,black 50%, #ff6200 50%, #ff6200 100%);
-  padding: 20px;
-}
-.why-us-title {
-  font-size: 125px;
-  color: #f4762a;
-  font-weight: bold;
-  text-align: left;
-  padding-bottom: 10px;
-  margin-bottom: 2px; 
-}
-
-.why-us-paragraph {
-  color: #ffffff;
-  font-family: font3;
-  margin-left:15px;
-  font-size:20px;
-  font-weight: bold;
-  text-align: right;  
-  display: flex; /* Enable flexbox for vertical centering */
-  justify-content: flex-end; 
-  margin-top: 20px; 
-  margin-bottom: 30px; 
-}
-@keyframes text-reveal {
-  from { opacity: 0; } /* Start with invisible text */
-  to { opacity: 1; } /* End with fully visible text */
-}
-.why-us-paragraph {
-  animation: text-reveal 2s ease-in-out forwards;
-}
-#programs {
-  width:95.2vw;
-background-color:#141414; /* Set background color for the entire programs section */
-}
 #programs h2 {
   font-size: 50px;
   padding: 10px; /* Add padding for better visibility */
@@ -271,7 +232,7 @@ background-color:#141414; /* Set background color for the entire programs sectio
   position: relative;
   display: flex;
   margin-bottom: 0;
-  padding:70px;
+  padding:30px;
   justify-content: space-between;
   flex-direction: column;
 }
