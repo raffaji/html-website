@@ -411,7 +411,7 @@ background-color: #141414; /* Set background color for the entire programs secti
 }
 /* width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
 /* Track */
