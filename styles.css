@@ -396,8 +396,9 @@ background-color: #141414; /* Set background color for the entire programs secti
   opacity:1;
   padding: 20px;
   width: 95.2vw;
+  display:flex;
   align-items: center; /* Center items vertically */
-  justify-content: center; /* Center items horizontally */
+  justify-content: space-between; /* Center items horizontally */
 }
 #contact p {
   color:white;
