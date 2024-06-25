@@ -24,13 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (programsTarget) {
         observer.observe(programsTarget);
     }
-
-    // Target for About us section with fade-in class
-    let aboutUsTarget = document.querySelector('#About\\ us.fade-in');
-    if (aboutUsTarget) {
-        observer.observe(aboutUsTarget);
-    }
-
     // Target for team section with animate-on-scroll and slide-up classes
     let teamTarget = document.querySelector('#team.animate-on-scroll.slide-up');
     if (teamTarget) {
