@@ -123,12 +123,12 @@ nav {
 }
 .video-container{
   object-fit: cover;
-  width: 100vw;/* Maintains full width on all devices */
+  width: 100%;/* Maintains full width on all devices */
   height: 100vh; 
 }
 @media (min-width: 992px ) {  /* Adjust breakpoint as needed (e.g., 992px for large laptops) */
   .video {
-    width: 1024px; /* Set desired width for laptops */
+    width: 100%; /* Set desired width for laptops */
     height: 740px; /* Set desired height for laptops */
   }
 }
@@ -208,7 +208,7 @@ p.center-text {
 }
 .parent-container {
   height:70vh;
-  width:95.1vw;
+  width:95.1%;
   text-align: left;
   background-image:linear-gradient(to right, black 0% ,black 50%, #ff6200 50%, #ff6200 100%);
   padding: 20px;
@@ -342,7 +342,7 @@ justify-content: space-between;
   color: white; /* Ensure the text color is white */
 }
 #team{
-  width:95.2vw;
+  width:95.2%;
 background-color: #141414; /* Set background color for the entire programs section */
 }
 #team .text-container h2 span {  /* Target spans within the text container */
