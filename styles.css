@@ -342,7 +342,7 @@ justify-content: space-between;
   color: white; /* Ensure the text color is white */
 }
 #team{
-  width:95.2%;
+  width:95.2vw;
 background-color: #141414; /* Set background color for the entire programs section */
 }
 #team .text-container h2 span {  /* Target spans within the text container */
