@@ -121,11 +121,16 @@ nav {
   text-align: center;
 }
 .video {
+width: 100%;
+    height: 100%;
   object-fit: cover;
   margin-left:35px;
 }
 .video-container{
   object-fit: cover;
+  width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 .slide{
   position: relative;
