@@ -212,6 +212,7 @@ p.center-text {
   font-size: 1.5em;
 }
 #programs {
+  width:95.2vw;
   background-color:  #141414;; /* Set background color for the entire programs section */
 }
 #programs h2 {
