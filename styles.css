@@ -416,6 +416,7 @@ background-color: #141414; /* Set background color for the entire programs secti
 .instagram-link {
     color: #ffffff; /* Adjust color to match your design */
     text-decoration: none;
+    font-size: 2em;
     font-weight: bold;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.4); /* Optional: Add background color */
@@ -424,11 +425,6 @@ background-color: #141414; /* Set background color for the entire programs secti
     display: inline-flex;
     align-items: center;
 }
-
-.instagram-link i {
-    margin-right: 8px; /* Add space between icon and text */
-}
-
 .instagram-link:hover {
     background-color: rgba(255, 102, 0, 0.6); /* Change background color on hover */
 }
