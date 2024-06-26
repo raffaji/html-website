@@ -378,6 +378,7 @@ background-color: #141414; /* Set background color for the entire programs secti
   justify-content: space-around;
   align-items:center;
   padding:20px;
+  z-index:2;
 }
 
 #contact {
@@ -392,6 +393,16 @@ background-color: #141414; /* Set background color for the entire programs secti
   display:flex;
   align-items: center; /* Center items vertically */
   justify-content:center; /* Center items horizontally */
+}
+#contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust opacity as needed */
+    z-index: 1; /* Ensure the overlay is above the background but below the text */
 }
 #contact p {
   color:white;
