@@ -121,21 +121,11 @@ nav {
   text-align: center;
 }
 .video {
-  width: 100vw;  /* Fills available space within container */
-  height: 100vh;  /* Maintains aspect ratio */
   object-fit: cover;
   margin-left:65px;
 }
 .video-container{
   object-fit: cover;
-  width: 100vw;/* Maintains full width on all devices */
-  height: 100vh; 
-}
-@media (min-width: 992px ) {  /* Adjust breakpoint as needed (e.g., 992px for large laptops) */
-  .video {
-    width: 1024px; /* Set desired width for laptops */
-    height: 740px; /* Set desired height for laptops */
-  }
 }
 .slide{
   position: relative;
