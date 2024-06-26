@@ -401,7 +401,7 @@ background-color: #141414; /* Set background color for the entire programs secti
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.2); /* Adjust opacity as needed */
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust opacity as needed */
     z-index: 1; /* Ensure the overlay is above the background but below the text */
 }
 #contact p {
@@ -420,7 +420,7 @@ background-color: #141414; /* Set background color for the entire programs secti
     font-weight: bold;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.4); /* Optional: Add background color */
-    border-radius: 5px; /* Optional: Add rounded corners */
+  border-radius: 50%;  /* Optional: Add rounded corners */
     transition: background-color 0.3s ease; /* Optional: Add transition for hover effect */
     display: inline-flex;
     align-items: center;
