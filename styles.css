@@ -135,6 +135,7 @@ width: 100%;
   width: 100vw;
     height: 100vh;
     overflow: hidden;
+    
 }
 .slide{
   position: relative;
@@ -517,4 +518,63 @@ footer {
 .slide-left {
     animation: slideLeft 3s ease forwards; /* Adjust duration and easing as needed */
     animation-delay: 1.5s;
+}
+
+
+/* Mobile-first approach */
+@media (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .logo {
+        width: 60px; /* Decrease logo size for smaller screens */
+    }
+    .second-logo {
+        width: 200px; /* Decrease second logo size for smaller screens */
+    }
+    .header {
+        padding: 10px; /* Increase padding for header on smaller screens */
+    }
+    .menu-button span {
+        width: 25px; /* Decrease menu button span width for smaller screens */
+    }
+    .menu ul li a {
+        font-size: 24px; /* Decrease font size of menu items for smaller screens */
+    }
+    .video-container {
+        height: 60vh; /* Decrease video container height for smaller screens */
+    }
+    .text-content h1 {
+        font-size: 2em; /* Decrease font size of heading for smaller screens */
+    }
+    .card {
+        width: 100px; /* Decrease card width for smaller screens */
+        height: 150px; /* Decrease card height for smaller screens */
+        margin: 5px; /* Adjust margin for cards on smaller screens */
+    }
+    .team-member h3 {
+        font-size: 24px; /* Decrease font size of team member headings for smaller screens */
+    }
+    #hero h1 {
+        font-size: 36px; /* Decrease font size of hero heading for smaller screens */
+    }
+    section {
+        padding: 40px 10px; /* Decrease section padding for smaller screens */
+    }
+}
+
+/* Tablet and larger screens */
+@media (min-width: 769px) {
+    /* Additional styles for tablets and larger screens */
+    .menu-button span {
+        margin-right: 15px; /* Adjust margin for menu button span */
+    }
+    .menu {
+        padding: 15px; /* Adjust padding for menu on larger screens */
+    }
+    .text-content h1 {
+        font-size: 3em; /* Increase font size of heading for tablets */
+    }
+    .card {
+        width: 150px; /* Increase card width for tablets */
+        height: 220px; /* Increase card height for tablets */
+    }
 }
