@@ -409,6 +409,16 @@ background-color: #141414; /* Set background color for the entire programs secti
   opacity: 1;
    margin: 0 44px; /* Add horizontal margin to create space between paragraphs */
 }
+#contact-container a {
+  color: #ffffff; /* Change this to your desired color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the link bold */
+}
+
+#contact-container a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
 #contact p:last-child {
   margin-right: 10px;
 }
