@@ -358,9 +358,8 @@ background-color: #ff6200; /* Set background color for the entire programs secti
 }
 
 .team-member img {
-    width: auto;
-    max-width: 230px;
-    max-height: 320px;
+    width: 230px;
+    height: 320px;
     object-fit: cover;
     margin-bottom: 30px;/* Space between image and text */
     margin-left: 10px;
