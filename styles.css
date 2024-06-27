@@ -332,7 +332,7 @@ background-color: #ff6200; /* Set background color for the entire programs secti
 
 .team-container {
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     justify-content: flex-end; /* Aligns items to the right */
 }
 
