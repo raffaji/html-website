@@ -240,7 +240,7 @@ p.center-text {
   position: relative;
   display: flex;
   margin-bottom: 0;
-  padding:36px;
+  padding:38px;
   justify-content: space-between;
   flex-direction: column;
 }
@@ -366,7 +366,7 @@ background-color: #141414; /* Set background color for the entire programs secti
     max-height: 320px;
     object-fit: cover;
     margin-bottom: 30px;/* Space between image and text */
-    margin-left: 24px;
+    margin-left: 21px;
     transition: transform 0.3s ease; /* Smooth transition for zoom effect */
 }
 
