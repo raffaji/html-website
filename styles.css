@@ -407,7 +407,7 @@ background-color: #141414; /* Set background color for the entire programs secti
   color:white;
   font-weight: bold;
   opacity: 1;
-   margin: 0 50px; /* Add horizontal margin to create space between paragraphs */
+   margin: 0 44px; /* Add horizontal margin to create space between paragraphs */
 }
 #contact p:last-child {
   margin-right: 10px;
