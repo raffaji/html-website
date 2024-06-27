@@ -372,7 +372,7 @@ background-color: #ff6200; /* Set background color for the entire programs secti
 }
 .flip-card {
             background-color: transparent;
-            width: 1900px;
+            width: 190px;
             height: 300px;
             perspective: 1000px;
              margin: 20px;
