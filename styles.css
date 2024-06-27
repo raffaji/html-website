@@ -240,7 +240,7 @@ p.center-text {
   position: relative;
   display: flex;
   margin-bottom: 0;
-  padding:30px;
+  padding:36px;
   justify-content: space-between;
   flex-direction: column;
 }
