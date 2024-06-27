@@ -269,7 +269,7 @@ p.center-text {
     margin: 5px;
     transition: transform 0.2s ease-in-out; /* Animation properties */
     cursor: pointer; /* Optional: Set cursor to indicate interaction */
-    border: 3px solid white; /* Add white border */
+    border: 3px solid #ff6200; /* Add white border */
 }
 .card:hover {
   transform: scale(1.1); /* Zoom in on hover */
