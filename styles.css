@@ -310,7 +310,7 @@ justify-content: space-between;
   color: white; /* Ensure the text color is white */
 }
 #team{
-background-color: black; /* Set background color for the entire programs section */
+background-color:#ff6200; /* Set background color for the entire programs section */
 }
 #team .text-container h2 span {  /* Target spans within the text container */
   display: inline-block;  /* Ensures spans appear next to each other */
