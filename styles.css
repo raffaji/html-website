@@ -572,20 +572,3 @@ footer {
     }
 }
 
-/* Tablet and larger screens */
-@media (min-width: 769px) {
-    /* Additional styles for tablets and larger screens */
-    .menu-button span {
-        margin-right: 15px; /* Adjust margin for menu button span */
-    }
-    .menu {
-        padding: 15px; /* Adjust padding for menu on larger screens */
-    }
-    .text-content h1 {
-        font-size: 3em; /* Increase font size of heading for tablets */
-    }
-    .card {
-        width: 150px; /* Increase card width for tablets */
-        height: 220px; /* Increase card height for tablets */
-    }
-}
