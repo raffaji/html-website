@@ -34,12 +34,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, options);
 // Target for programs section
-    let programsTarget = document.querySelector('#programs.animate-on-scroll');
+    let programsTarget = document.querySelector('#programs.animate-on-scroll.fade-in');
     if (programsTarget) {
         observer.observe(programsTarget);
     }
     // Target for team section with animate-on-scroll and slide-up classes
-    let teamTarget = document.querySelector('#team.animate-on-scroll.slide-up');
+    let teamTarget = document.querySelector('#team.animate-on-scroll.slide-up.fade-in');
     if (teamTarget) {
         observer.observe(teamTarget);
 
