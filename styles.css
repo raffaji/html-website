@@ -212,7 +212,7 @@ p.center-text {
   font-size: 1.5em;
 }
 #programs {
-  background-color:  #ebebe8; /* Set background color for the entire programs section */
+  background-color:  black; /* Set background color for the entire programs section */
 }
 #programs h2 {
   font-size: 50px;
@@ -310,7 +310,7 @@ justify-content: space-between;
   color: white; /* Ensure the text color is white */
 }
 #team{
-background-color:#ff6200; /* Set background color for the entire programs section */
+background-color: black; /* Set background color for the entire programs section */
 }
 #team .text-container h2 span {  /* Target spans within the text container */
   display: inline-block;  /* Ensures spans appear next to each other */
@@ -319,7 +319,6 @@ background-color:#ff6200; /* Set background color for the entire programs sectio
 
 /* Styles for the Team section */
 #team h2 {
-  color:#ebebe8;
   text-align: left;
   line-height: 0.9;
   font-size:106px;
@@ -349,13 +348,13 @@ background-color:#ff6200; /* Set background color for the entire programs sectio
 }
 
 .team-member p {
- color: #ebebe8;
+ color: white;
   margin: 15px 0;
   margin-left:24px;
   }
 .team-member h3 {
  font-size:35px;
- color: black;
+ color: #ff6200;
  margin-top: 15px ;/* Space above and below heading */
  margin-bottom:15px ;
  margin-left:17px;
