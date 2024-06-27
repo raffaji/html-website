@@ -213,9 +213,10 @@ p.center-text {
   font-size: 1.5em;
 }
 #programs {
-  background-color:  black; /* Set background color for the entire programs section */
+  background-color:  #ebebe8; /* Set background color for the entire programs section */
 }
 #programs h2 {
+  color:black;
   font-size: 50px;
   padding: 10px; /* Add padding for better visibility */
   margin-top: 0; /* Remove default margin for the h2 */
