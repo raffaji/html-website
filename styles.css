@@ -349,14 +349,14 @@ background-color: #141414; /* Set background color for the entire programs secti
 .team-member p {
  color: white;
   margin: 15px 0;
-  margin-left:95px;
+  margin-left:13px;
   }
 .team-member h3 {
  font-size:35px;
  color: #ff6200;
  margin-top: 15px ;/* Space above and below heading */
  margin-bottom:15px ;
- margin-left:65px;
+ margin-left:13px;
 }
 
 .team-member img {
@@ -365,7 +365,7 @@ background-color: #141414; /* Set background color for the entire programs secti
     max-height: 320px;
     object-fit: cover;
     margin-bottom: 30px;/* Space between image and text */
-    margin-left: 65px;
+    margin-left: 13px;
     transition: transform 0.3s ease; /* Smooth transition for zoom effect */
 }
 
