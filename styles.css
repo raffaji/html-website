@@ -213,20 +213,13 @@ p.center-text {
   font-size: 1.5em;
 }
 #programs {
-  background-color:  #ebebe8; /* Set background color for the entire programs section */
+  background-color:#ebebe8; /* Set background color for the entire programs section */
 }
 #programs h2 {
-  color:black;
+  color:black !important;
   font-size: 50px;
   padding: 10px; /* Add padding for better visibility */
   margin-top: 0; /* Remove default margin for the h2 */
-
-   text-shadow:
-    /* Inner shadow for a slight glow */
-    0 0 0 3px rgba(#ff6600, 1),
-    /* Outer shadow for a diffused glow */
-    0 0 7px 4px rgba(#ff6600, 0.5);
-  
 }
 
 .programs-container {
@@ -286,7 +279,7 @@ p.center-text {
 }
 
 .program h3{
-justify-content: space-between;
+  justify-content: space-between;
   font-family: font2;
   margin: 5px 0px; /* Adjust margin to separate elements */
   margin-bottom: 50px; 
