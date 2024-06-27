@@ -376,7 +376,7 @@ background-color: #141414; /* Set background color for the entire programs secti
   display: flex;
   justify-content: space-around;
   align-items:center;
-  padding:20px;
+  padding:17px;
   z-index:2;
 }
 
