@@ -326,8 +326,7 @@ background-color: #ff6200; /* Set background color for the entire programs secti
   .team-wrapper {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
-    /* flex-wrap: nowrap; Prevents wrapping to the next line */
+    align-items: center;
     flex-wrap: wrap;
 }
 
