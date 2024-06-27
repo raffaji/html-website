@@ -219,7 +219,7 @@ p.center-text {
   color:black !important;
   font-size: 50px;
   padding: 10px; /* Add padding for better visibility */
-  margin-top: 0; /* Remove default margin for the h2 */
+  margin-top: 28px; /* Remove default margin for the h2 */
 }
 
 .programs-container {
@@ -351,7 +351,7 @@ background-color: #ff6200; /* Set background color for the entire programs secti
   }
 .team-member h3 {
  font-size:35px;
- color: black;
+ color: black !important;
  font-weight: bold;;
  margin-top: 15px ;/* Space above and below heading */
  margin-bottom:15px ;
