@@ -305,7 +305,7 @@ p.center-text {
   color: white; /* Ensure the text color is white */
 }
 #team{
-background-color: black; /* Set background color for the entire programs section */
+background-color: #ff6200; /* Set background color for the entire programs section */
 }
 #team .text-container h2 span {  /* Target spans within the text container */
   display: inline-block;  /* Ensures spans appear next to each other */
@@ -314,6 +314,7 @@ background-color: black; /* Set background color for the entire programs section
 
 /* Styles for the Team section */
 #team h2 {
+  color:black;
   text-align: left;
   line-height: 0.9;
   font-size:106px;
@@ -343,13 +344,15 @@ background-color: black; /* Set background color for the entire programs section
 }
 
 .team-member p {
- color: white;
+  color: white;
+  font-weight: bold;
   margin: 15px 0;
   margin-left:24px;
   }
 .team-member h3 {
  font-size:35px;
- color: #ff6200;
+ color: black;
+ font-weight: bold;;
  margin-top: 15px ;/* Space above and below heading */
  margin-bottom:15px ;
  margin-left:3px;
@@ -363,6 +366,7 @@ background-color: black; /* Set background color for the entire programs section
     margin-bottom: 30px;/* Space between image and text */
     margin-left: 10px;
     transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+    border: 3px solid #ebebe8 ; 
 }
 
 .team-member img:hover {
