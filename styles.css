@@ -320,11 +320,12 @@ background-color: #141414; /* Set background color for the entire programs secti
 /* Styles for the Team section */
 #team h2 {
   text-align: left;
-   line-height: 0.9;
+  line-height: 0.9;
   font-size:106px;
   font-family: font2;
-  margin-right: 370px;
-   margin-bottom:105px;
+  margin-right: 350px;
+  margin-bottom:105px;
+  margin-left:70px;
 }
   .team-wrapper {
     display: flex;
