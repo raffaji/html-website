@@ -410,6 +410,10 @@ background-color: #ff6200; /* Set background color for the entire programs secti
             background-color: #ff6600;
             color: white;
             transform: rotateY(180deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
         }
         .bio {
             padding: 20px;
