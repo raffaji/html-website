@@ -375,7 +375,7 @@ background-color: #ff6200; /* Set background color for the entire programs secti
             width: 190px;
             height: 300px;
             perspective: 1000px;
-             margin: 20px;
+             margin: 30px;
         }
         .flip-card-inner {
             position: relative;
@@ -394,12 +394,17 @@ background-color: #ff6200; /* Set background color for the entire programs secti
             width: 100%;
             height: 100%;
             backface-visibility: hidden;
+             -webkit-backface-visibility: hidden;
             border-radius: 10px;
-            border: 1px solid #ddd;
         }
         .flip-card-front {
             background-color: #fff;
             color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0; /* Remove padding to align perfectly */
         }
         .flip-card-back {
             background-color: #ff6600;
