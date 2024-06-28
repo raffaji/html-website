@@ -394,26 +394,17 @@ background-color: #ff6200; /* Set background color for the entire programs secti
             width: 100%;
             height: 100%;
             backface-visibility: hidden;
-             -webkit-backface-visibility: hidden;
             border-radius: 10px;
         }
         .flip-card-front {
             background-color: #fff;
             color: black;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
             padding: 0; /* Remove padding to align perfectly */
         }
         .flip-card-back {
             background-color: #ff6600;
             color: white;
             transform: rotateY(180deg);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
         }
         .bio {
             padding: 20px;
